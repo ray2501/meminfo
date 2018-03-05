@@ -14,3 +14,8 @@ information in a hierarchical file-like structure, providing a more convenient a
 method for dynamically accessing process data held in the kernel than traditional tracing 
 methods or direct access to kernel memory.
 
+And -
+ * kernel_version.tcl: read /proc/version to get Linux kernel version info
+ * processes.tcl: read /proc/PID/cmdline to list current processes
+ * self.tcl: read /proc/self/status to get self memory status
+
